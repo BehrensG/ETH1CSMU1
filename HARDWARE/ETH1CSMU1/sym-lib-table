@@ -50,4 +50,5 @@
   (lib (name DDS_local)(type Legacy)(uri /home/grzegorz/develop/hardware/kicad_lib/schematic/local/DDS_local.lib)(options "")(descr ""))
   (lib (name DAC_local)(type Legacy)(uri /home/grzegorz/develop/hardware/kicad_lib/schematic/local/DAC_local.lib)(options "")(descr ""))
   (lib (name ADC_local)(type Legacy)(uri /home/grzegorz/develop/hardware/kicad_lib/schematic/local/ADC_local.lib)(options "")(descr ""))
+  (lib (name stm32)(type Legacy)(uri /home/grzegorz/develop/hardware/kicad_lib/schematic/extern/stm32.lib)(options "")(descr ""))
 )

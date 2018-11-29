@@ -1117,4 +1117,6 @@ Wire Wire Line
 Wire Wire Line
 	2800 1100 3350 1100
 Connection ~ 3350 1650
+Text HLabel 1950 4600 0    50   Input ~ 0
+FGEN_RESET
 $EndSCHEMATC

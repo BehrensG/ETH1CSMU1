@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 13
+Sheet 12 14
 Title ""
 Date ""
 Rev ""
@@ -931,4 +931,24 @@ Wire Wire Line
 	1050 1750 1050 1800
 Wire Wire Line
 	10250 3250 10350 3250
+Wire Wire Line
+	10250 2950 10350 2950
+Wire Wire Line
+	10350 2950 10350 1750
+$Comp
+L Device:R R1209
+U 1 1 5C4660B2
+P 9550 1750
+F 0 "R1209" V 9343 1750 50  0000 C CNN
+F 1 "10k" V 9434 1750 50  0000 C CNN
+F 2 "SMD:R_0603_Symbol1" V 9480 1750 50  0001 C CNN
+F 3 "~" H 9550 1750 50  0001 C CNN
+	1    9550 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9400 1750 8600 1750
+Connection ~ 8600 1750
+Wire Wire Line
+	9700 1750 10350 1750
 $EndSCHEMATC

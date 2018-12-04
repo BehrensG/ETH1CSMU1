@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 13
+Sheet 10 14
 Title ""
 Date ""
 Rev ""
@@ -769,7 +769,7 @@ U 1 1 5BA43BDF
 P 8900 4900
 F 0 "R1017" V 8700 4900 50  0000 C CNN
 F 1 "1Meg/1kV" V 8800 4900 50  0000 C CNN
-F 2 "" V 8830 4900 50  0001 C CNN
+F 2 "Resistors_SMD:R_1206" V 8830 4900 50  0001 C CNN
 F 3 "~" H 8900 4900 50  0001 C CNN
 	1    8900 4900
 	0    1    1    0   

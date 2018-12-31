@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 15
+Sheet 1 16
 Title ""
 Date ""
 Rev ""
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 8250 3350 1750 3950
+S 8950 3350 1750 3950
 U 5BE0F4FE
 F0 "MCU Second" 50
 F1 "MCUSecond.sch" 50
@@ -235,4 +235,10 @@ Wire Wire Line
 	14250 1650 14500 1650
 Wire Wire Line
 	14500 1750 14250 1750
+$Sheet
+S 4150 5400 1350 1400
+U 5C271DA1
+F0 "Test" 50
+F1 "Test.sch" 50
+$EndSheet
 $EndSCHEMATC

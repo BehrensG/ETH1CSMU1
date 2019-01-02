@@ -1863,10 +1863,10 @@ Wire Wire Line
 Wire Wire Line
 	13550 6150 13550 5650
 $Comp
-L Analog_Switch:ADG419BRM U507
+L Analog_Switch:ADG419BRM U508
 U 1 1 5C61CAD9
 P 13900 6150
-F 0 "U507" H 13900 6392 50  0000 C CNN
+F 0 "U508" H 13900 6392 50  0000 C CNN
 F 1 "ADG419BRM" H 13900 6301 50  0000 C CNN
 F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 13900 5850 50  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG419.pdf" H 13900 6150 50  0001 C CNN
@@ -1874,10 +1874,10 @@ F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG419.p
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Analog_Switch:ADG419BRM U507
+L Analog_Switch:ADG419BRM U508
 U 2 1 5C62B5B7
 P 9750 10350
-F 0 "U507" H 9570 10396 50  0000 R CNN
+F 0 "U508" H 9570 10396 50  0000 R CNN
 F 1 "ADG419BRM" H 9570 10305 50  0000 R CNN
 F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 9750 10050 50  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG419.pdf" H 9750 10350 50  0001 C CNN
@@ -1885,10 +1885,10 @@ F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG419.p
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Analog_Switch:ADG419BRM U508
+L Analog_Switch:ADG419BRM U507
 U 1 1 5C62BC20
 P 10850 6150
-F 0 "U508" H 10850 6392 50  0000 C CNN
+F 0 "U507" H 10850 6392 50  0000 C CNN
 F 1 "ADG419BRM" H 10850 6301 50  0000 C CNN
 F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 10850 5850 50  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG419.pdf" H 10850 6150 50  0001 C CNN
@@ -1896,10 +1896,10 @@ F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG419.p
 	1    0    0    -1  
 $EndComp
 $Comp
-L Analog_Switch:ADG419BRM U508
+L Analog_Switch:ADG419BRM U507
 U 2 1 5C62BD3C
 P 10800 10350
-F 0 "U508" H 10620 10396 50  0000 R CNN
+F 0 "U507" H 10620 10396 50  0000 R CNN
 F 1 "ADG419BRM" H 10620 10305 50  0000 R CNN
 F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 10800 10050 50  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG419.pdf" H 10800 10350 50  0001 C CNN

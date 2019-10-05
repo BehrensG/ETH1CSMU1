@@ -1,0 +1,104 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +10VRF
+D Power symbol creates a global label with name "+10VRF"
+K power-flag
+$ENDCMP
+#
+$CMP +15VF
+D Power symbol creates a global label with name "+15VF"
+K power-flag
+$ENDCMP
+#
+$CMP +3.3VF
+D Power symbol creates a global label with name "+3.3VF"
+K power-flag
+$ENDCMP
+#
+$CMP +5VF
+D Power symbol creates a global label with name "+5VF"
+K power-flag
+$ENDCMP
+#
+$CMP -15VF
+D Power symbol creates a global label with name "-15VF"
+K power-flag
+$ENDCMP
+#
+$CMP AD5544_TSSOP
+D Quad, Current-Output, Serial-Input 16 DACs
+$ENDCMP
+#
+$CMP AD55x4_TSSOP
+D Quad, Current-Output, Serial-Input 16-/14-Bit DACs
+$ENDCMP
+#
+$CMP AD744
+D Precision, 500 ns Settling BiFET Op Amp
+K single opamp
+F http://www.ti.com/lit/ds/symlink/ne5534.pdf
+$ENDCMP
+#
+$CMP ADS8517
+D 16-Bit, 200-kSPS, Low-Power, Sampling ANALOG-TO-DIGITALCONVERTER with Internal Reference and Parallel/Serial Interface
+$ENDCMP
+#
+$CMP BUF634A
+D UF634A36-V, 210-MHz,250-mAOutput,High-SpeedBuffer
+K single opamp
+F http://www.ti.com/lit/ds/symlink/ne5534.pdf
+$ENDCMP
+#
+$CMP CRD
+D current-regulating diode (CRD)
+K diode
+F ~
+$ENDCMP
+#
+$CMP DAC8812C
+D DAC8812Dual, Serial-Input16-BitMultiplyingDigital-to-AnalogConverter
+$ENDCMP
+#
+$CMP GNDB
+D Power symbol creates a global label with name "GNDB" , ground
+K power-flag
+$ENDCMP
+#
+$CMP GNDO
+D Power symbol creates a global label with name "GNDO" , ground
+K power-flag
+$ENDCMP
+#
+$CMP GNDP
+D Power symbol creates a global label with name "GNDP" , ground
+K power-flag
+$ENDCMP
+#
+$CMP GNDS
+D Power symbol creates a global label with name "GNDS" , ground
+K power-flag
+$ENDCMP
+#
+$CMP LT1007
+D Low Noise, High SpeedPrecision Operational Amplifiers, PDIP-8/SO-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/ne5534.pdf
+$ENDCMP
+#
+$CMP LT1055
+D Precision, High Speed,JFET Input Operational Amplifiers
+K single opamp
+F http://www.ti.com/lit/ds/symlink/ne5534.pdf
+$ENDCMP
+#
+$CMP LT1057S8
+D Dual  JFET InputPrecision High Speed Op Amps
+$ENDCMP
+#
+$CMP OPA132
+D OPAx132 High-Speed FET-Input Operational Amplifiers
+K single opamp
+F http://www.ti.com/lit/ds/symlink/ne5534.pdf
+$ENDCMP
+#
+#End Doc Library

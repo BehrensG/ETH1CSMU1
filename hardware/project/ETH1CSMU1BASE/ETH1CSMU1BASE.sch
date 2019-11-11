@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -63,8 +63,8 @@ $EndSheet
 $Sheet
 S 4250 4800 2350 800 
 U 5DC846AF
-F0 "Power" 50
-F1 "Power.sch" 50
+F0 "Power base" 50
+F1 "Power_base.sch" 50
 $EndSheet
 $Sheet
 S 6750 1350 900  4250
@@ -144,4 +144,10 @@ Wire Wire Line
 	6750 3900 5550 3900
 Wire Wire Line
 	5550 4000 6750 4000
+$Sheet
+S 2300 4800 1850 800 
+U 5DCE1F8B
+F0 "Power isolation" 50
+F1 "Power_isolation.sch" 50
+$EndSheet
 $EndSCHEMATC

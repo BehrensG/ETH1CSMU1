@@ -10,8 +10,23 @@ D Power symbol creates a global label with name "+15VF"
 K power-flag
 $ENDCMP
 #
+$CMP +24VDD
+D Power symbol creates a global label with name "+24VDD"
+K power-flag
+$ENDCMP
+#
+$CMP +3.3DVF
+D Power symbol creates a global label with name "+3.3DVF"
+K power-flag
+$ENDCMP
+#
 $CMP +3.3VF
 D Power symbol creates a global label with name "+3.3VF"
+K power-flag
+$ENDCMP
+#
+$CMP +30VF
+D Power symbol creates a global label with name "+30VF"
 K power-flag
 $ENDCMP
 #
@@ -20,9 +35,63 @@ D Power symbol creates a global label with name "+5VF"
 K power-flag
 $ENDCMP
 #
+$CMP +5V_TRIG
+D Power symbol creates a global label with name "+5V_TRIG"
+K power-flag
+$ENDCMP
+#
+$CMP +BOT_DRIVE
+D Power symbol creates a global label with name "+BOT_DRIVE"
+K power-flag
+$ENDCMP
+#
+$CMP +HV
+D Power symbol creates a global label with name "+HV"
+K power-flag
+$ENDCMP
+#
+$CMP +TOP_DRIVE
+D Power symbol creates a global label with name "+TOP_DRIVE"
+K power-flag
+$ENDCMP
+#
+$CMP +ZENER
+D Power symbol creates a global label with name "+10ZENER"
+K power-flag
+$ENDCMP
+#
 $CMP -15VF
 D Power symbol creates a global label with name "-15VF"
 K power-flag
+$ENDCMP
+#
+$CMP -30VF
+D Power symbol creates a global label with name "+30VF"
+K power-flag
+$ENDCMP
+#
+$CMP -BOT_DRIVE
+D Power symbol creates a global label with name "-BOT_DRIVE"
+K power-flag
+$ENDCMP
+#
+$CMP -HV
+D Power symbol creates a global label with name "-HV"
+K power-flag
+$ENDCMP
+#
+$CMP -TOP_DRIVE
+D Power symbol creates a global label with name "-TOP_DRIVE"
+K power-flag
+$ENDCMP
+#
+$CMP -ZENER
+D Power symbol creates a global label with name "-10ZENER"
+K power-flag
+$ENDCMP
+#
+$CMP 749010012A
+D LAN Transformer
 $ENDCMP
 #
 $CMP AD5544_TSSOP
@@ -37,6 +106,22 @@ $CMP AD744
 D Precision, 500 ns Settling BiFET Op Amp
 K single opamp
 F http://www.ti.com/lit/ds/symlink/ne5534.pdf
+$ENDCMP
+#
+$CMP ADS8517
+D 16-Bit, 200-kSPS, Low-Power, Sampling ANALOG-TO-DIGITALCONVERTER with Internal Reference and Parallel/Serial Interface
+$ENDCMP
+#
+$CMP ADUM3151
+D 3.75 kV, 7-Channel, SPIsolatorDigitalIsolators for SPI
+$ENDCMP
+#
+$CMP ADuM3151
+D 3.75 kV, 7-Channel, SPIsolatorDigitalIsolators for SPI
+$ENDCMP
+#
+$CMP AQY212GS
+D Load current greatly increased using next-generation MOSFET High Capacity 4-pin Type
 $ENDCMP
 #
 $CMP BUF634A
@@ -55,8 +140,17 @@ $CMP DAC8812C
 D DAC8812Dual, Serial-Input16-BitMultiplyingDigital-to-AnalogConverter
 $ENDCMP
 #
+$CMP DRQ74-330
+D Dual winding, high power density, shielded drum core power inductors
+$ENDCMP
+#
 $CMP GNDB
 D Power symbol creates a global label with name "GNDB" , ground
+K power-flag
+$ENDCMP
+#
+$CMP GNDHV
+D Power symbol creates a global label with name "GNDHV" , ground
 K power-flag
 $ENDCMP
 #
@@ -75,6 +169,31 @@ D Power symbol creates a global label with name "GNDS" , ground
 K power-flag
 $ENDCMP
 #
+$CMP GND_TRIG
+D Power symbol creates a global label with name "GND_TRIG" , ground
+K power-flag
+$ENDCMP
+#
+$CMP HE3600
+D HE3600 Miniature Single In-line Reed Relay
+$ENDCMP
+#
+$CMP HE3621A0500
+D HE3600 Miniature Single In-line Reed Relay
+$ENDCMP
+#
+$CMP HE3621A0510
+D HE3600 Miniature Single In-line Reed Relay
+$ENDCMP
+#
+$CMP LAN8742
+D Small  Footprint  RMII  10/100  Ethernet  Transceiver  with  HP  Auto-MDIX  and  flexPWR® Technology
+$ENDCMP
+#
+$CMP LC03-3.3
+D LC03-3.3 Series 3.3V 150A Diode Array
+$ENDCMP
+#
 $CMP LT1007
 D Low Noise, High SpeedPrecision Operational Amplifiers, PDIP-8/SO-8
 K single opamp
@@ -91,10 +210,46 @@ $CMP LT1057S8
 D Dual  JFET InputPrecision High Speed Op Amps
 $ENDCMP
 #
+$CMP LT8331
+D Low IQ Boost/SEPIC/Flyback/Inverting Converter with 0.5A, 140V Switch
+$ENDCMP
+#
+$CMP MAX5902
+D +72V, SOT23/TDFN, Simple Swapper Hot-Swap Controllers
+$ENDCMP
+#
 $CMP OPA132
 D OPAx132 High-Speed FET-Input Operational Amplifiers
 K single opamp
 F http://www.ti.com/lit/ds/symlink/ne5534.pdf
+$ENDCMP
+#
+$CMP STM32F765ZGT6
+D Arm Cortex-M7 32b MCU+FPU, 462DMIPS, up to 2MB Flash/512+16+4KB RAM, USB OTG HS/FS, 28 com IF, LCD, DSI
+$ENDCMP
+#
+$CMP STM32H743ZI
+D 32-bit Arm® Cortex®-M7 480MHz MCUs, up to 2MB Flash, up to 1MB RAM
+$ENDCMP
+#
+$CMP TEL10-2415
+D TheTEL10 series is a range of isolated 10 Watt DC/DC converters which come in a ultra compact DIP-16 metal package.
+$ENDCMP
+#
+$CMP TEL10_Single
+D TheTEL10 series is a range of isolated 10 Watt DC/DC converters which come in a ultra compact DIP-16 metal package.
+$ENDCMP
+#
+$CMP TSR1
+D TSR1Series, 1A
+$ENDCMP
+#
+$CMP TSR1-2433
+D TSR1Series, 1A, 3.3 VDC
+$ENDCMP
+#
+$CMP TSR1-2450
+D TSR1Series, 1A, 5 VDC
 $ENDCMP
 #
 #End Doc Library

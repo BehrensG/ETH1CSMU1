@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -149,5 +149,17 @@ S 2300 4800 1850 800
 U 5DCE1F8B
 F0 "Power isolation" 50
 F1 "Power_isolation.sch" 50
+$EndSheet
+$Sheet
+S 2300 6000 1850 600 
+U 5DCF3979
+F0 "Power High Voltage" 50
+F1 "Power_High_Voltage.sch" 50
+$EndSheet
+$Sheet
+S 2200 3250 1700 1200
+U 5DCD9B8B
+F0 "Output module" 50
+F1 "Output_Module.sch" 50
 $EndSheet
 $EndSCHEMATC

@@ -15,6 +15,21 @@ D Power symbol creates a global label with name "+24VDD"
 K power-flag
 $ENDCMP
 #
+$CMP +24VF
+D Power symbol creates a global label with name "+24VF"
+K power-flag
+$ENDCMP
+#
+$CMP +24V_HV1
+D Power symbol creates a global label with name "+24V_HV1"
+K power-flag
+$ENDCMP
+#
+$CMP +24V_HV2
+D Power symbol creates a global label with name "+24V_HV2"
+K power-flag
+$ENDCMP
+#
 $CMP +3.3DVF
 D Power symbol creates a global label with name "+3.3DVF"
 K power-flag
@@ -27,6 +42,21 @@ $ENDCMP
 #
 $CMP +30VF
 D Power symbol creates a global label with name "+30VF"
+K power-flag
+$ENDCMP
+#
+$CMP +48VF
+D Power symbol creates a global label with name "+48VF"
+K power-flag
+$ENDCMP
+#
+$CMP +48V_HV1
+D Power symbol creates a global label with name "+48V_HV1"
+K power-flag
+$ENDCMP
+#
+$CMP +48V_HV2
+D Power symbol creates a global label with name "+48V_HV2"
 K power-flag
 $ENDCMP
 #
@@ -90,6 +120,10 @@ D Power symbol creates a global label with name "-10ZENER"
 K power-flag
 $ENDCMP
 #
+$CMP 74489440068
+D Coupled Inductur WE-TDC 8038
+$ENDCMP
+#
 $CMP 749010012A
 D LAN Transformer
 $ENDCMP
@@ -110,10 +144,6 @@ $ENDCMP
 #
 $CMP ADS8517
 D 16-Bit, 200-kSPS, Low-Power, Sampling ANALOG-TO-DIGITALCONVERTER with Internal Reference and Parallel/Serial Interface
-$ENDCMP
-#
-$CMP ADUM3151
-D 3.75 kV, 7-Channel, SPIsolatorDigitalIsolators for SPI
 $ENDCMP
 #
 $CMP ADuM3151
@@ -146,6 +176,11 @@ $ENDCMP
 #
 $CMP GNDB
 D Power symbol creates a global label with name "GNDB" , ground
+K power-flag
+$ENDCMP
+#
+$CMP GNDF
+D Power symbol creates a global label with name "GNDF" , ground
 K power-flag
 $ENDCMP
 #
@@ -210,8 +245,16 @@ $CMP LT1057S8
 D Dual  JFET InputPrecision High Speed Op Amps
 $ENDCMP
 #
+$CMP LT8330_S6
+D Low IQ Boost/SEPIC/Inverting Converter  with 1A, 60V Switch
+$ENDCMP
+#
 $CMP LT8331
 D Low IQ Boost/SEPIC/Flyback/Inverting Converter with 0.5A, 140V Switch
+$ENDCMP
+#
+$CMP LT8362
+D Low IQ Boost/SEPIC/Inverting Converter with 2A, 60V Switch
 $ENDCMP
 #
 $CMP MAX5902

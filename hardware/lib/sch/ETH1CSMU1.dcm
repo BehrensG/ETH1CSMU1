@@ -120,6 +120,14 @@ D Power symbol creates a global label with name "-10ZENER"
 K power-flag
 $ENDCMP
 #
+$CMP 7448013501
+D CMC 500UH 3.5A 2LN TH
+$ENDCMP
+#
+$CMP 7448014501
+D Common Mode Chokes / Filters WE-CMBNC Type XS Nancrystl 10kHz 4.5A
+$ENDCMP
+#
 $CMP 74489440068
 D Coupled Inductur WE-TDC 8038
 $ENDCMP
@@ -168,6 +176,14 @@ $ENDCMP
 #
 $CMP DAC8812C
 D DAC8812Dual, Serial-Input16-BitMultiplyingDigital-to-AnalogConverter
+$ENDCMP
+#
+$CMP DRQ127-101
+D Coupled Inductur WE-TDC 8038
+$ENDCMP
+#
+$CMP DRQ127-221
+D Coupled Inductur WE-TDC 8038
 $ENDCMP
 #
 $CMP DRQ74-330
@@ -265,14 +281,6 @@ $CMP OPA132
 D OPAx132 High-Speed FET-Input Operational Amplifiers
 K single opamp
 F http://www.ti.com/lit/ds/symlink/ne5534.pdf
-$ENDCMP
-#
-$CMP STM32F765ZGT6
-D Arm Cortex-M7 32b MCU+FPU, 462DMIPS, up to 2MB Flash/512+16+4KB RAM, USB OTG HS/FS, 28 com IF, LCD, DSI
-$ENDCMP
-#
-$CMP STM32H743ZI
-D 32-bit Arm® Cortex®-M7 480MHz MCUs, up to 2MB Flash, up to 1MB RAM
 $ENDCMP
 #
 $CMP TEL10-2415

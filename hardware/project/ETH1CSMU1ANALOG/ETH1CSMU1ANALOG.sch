@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:ETH1CSMU1ANALOG-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -43,5 +42,11 @@ S 8350 2650 1750 1500
 U 5F83EBF9
 F0 "Output module" 50
 F1 "Output_Module.sch" 50
+$EndSheet
+$Sheet
+S 2350 850  2100 1100
+U 5E895799
+F0 "ADC" 50
+F1 "ADC.sch" 50
 $EndSheet
 $EndSCHEMATC

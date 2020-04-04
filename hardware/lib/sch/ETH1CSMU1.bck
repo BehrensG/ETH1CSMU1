@@ -178,6 +178,10 @@ $CMP DAC8812C
 D DAC8812Dual, Serial-Input16-BitMultiplyingDigital-to-AnalogConverter
 $ENDCMP
 #
+$CMP DRQ127-101
+D Coupled Inductur WE-TDC 8038
+$ENDCMP
+#
 $CMP DRQ127-221
 D Coupled Inductur WE-TDC 8038
 $ENDCMP

@@ -179,11 +179,11 @@ D DAC8812Dual, Serial-Input16-BitMultiplyingDigital-to-AnalogConverter
 $ENDCMP
 #
 $CMP DRQ127-101
-D Coupled Inductur WE-TDC 8038
+D Dual winding, high power density, shielded drum core power inductors
 $ENDCMP
 #
 $CMP DRQ127-221
-D Coupled Inductur WE-TDC 8038
+D Dual winding, high power density, shielded drum core power inductors
 $ENDCMP
 #
 $CMP DRQ74-330

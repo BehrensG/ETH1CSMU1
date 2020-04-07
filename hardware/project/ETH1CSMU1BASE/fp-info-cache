@@ -1,4 +1,4 @@
-16955842866669352
+16997109794811352
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -46025,6 +46025,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 10
 10
 ETH1CSMU1
+7448013501
+WE-CMBNC Common Mode PowerLine Choke Nanocrystalline
+
+0
+4
+4
+ETH1CSMU1
 7448014501
 WE-CMBNC Common Mode PowerLine Choke Nanocrystalline
 
@@ -46081,6 +46088,13 @@ WE-TPC SMD Shielded Tiny Power Inductor
 2
 2
 ETH1CSMU1
+744066101
+WE-TPC SMD Shielded Tiny Power Inductor
+
+0
+2
+2
+ETH1CSMU1
 744233121
  Filter, Line, Common Mode, WE-CNSW Series, 120 ohm, 280 mA, 2mm x 1.2mm x 1.2mm 
 
@@ -46109,6 +46123,34 @@ WR-MJ Modular Jack 45° Entry Shielded 8P8C Standard & Reverse Metal Post Trail
 12
 9
 ETH1CSMU1
+74437324068
+WE-LHMI SMT Power Inductor
+
+0
+2
+2
+ETH1CSMU1
+74489440068
+COUPLED INDUCTOR  WE-TDC 8038
+
+0
+4
+4
+ETH1CSMU1
+AQY212GS
+Load current greatly increased using next-generation MOSFET High Capacity 4-pin Type
+
+0
+4
+4
+ETH1CSMU1
+BFC2
+Film Dielectric Trimmers
+
+0
+4
+2
+ETH1CSMU1
 CP_EIA-7360-38_Kemet-E
 Tantalum Capacitor SMD Kemet-E (7360-38 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
 capacitor tantalum
@@ -46123,6 +46165,20 @@ capacitor tantalum
 2
 2
 ETH1CSMU1
+CW252016
+CW252016 Series - High Q Chip Inductors
+
+0
+2
+2
+ETH1CSMU1
+DO-219AC
+
+
+0
+2
+2
+ETH1CSMU1
 DO_214AA_REV
 
 
@@ -46130,12 +46186,54 @@ DO_214AA_REV
 2
 2
 ETH1CSMU1
+DRQ127
+Dual winding, high power density, shielded drum core power inductors
+
+0
+4
+4
+ETH1CSMU1
+D_SOD-128
+D_SOD-128 (CFP5 SlimSMAW), https://assets.nexperia.com/documents/outline-drawing/SOD128.pdf
+D_SOD-128
+0
+2
+2
+ETH1CSMU1
+D_SOD-323HE
+SOD-323HE
+SOD-323HE
+0
+2
+2
+ETH1CSMU1
+ECS
+
+
+0
+4
+4
+ETH1CSMU1
 Fuse_SMD2920
 MF-LSMFSeries-PTCResettableFuses
 Fuse SMD2920
 0
 2
 2
+ETH1CSMU1
+GDT
+
+
+0
+2
+2
+ETH1CSMU1
+GU-SOP8
+
+
+0
+8
+8
 ETH1CSMU1
 HE360_x-5050462-8
 HE3600 Miniature Single In-line Reed Relay
@@ -46157,6 +46255,20 @@ connector idc locked
 0
 18
 16
+ETH1CSMU1
+JZ
+J Series Outperforms All Other Similar Trimmers
+
+0
+2
+2
+ETH1CSMU1
+LMx99
+
+
+0
+4
+4
 ETH1CSMU1
 MSE-16
 16-Lead Plastic MSOP with 4 Pins Removed
@@ -46186,8 +46298,36 @@ Adjustable Output 3-Amp DOSA-SMT DC/DC Converters
 5
 5
 ETH1CSMU1
+PowerDI-123
+
+
+0
+2
+2
+ETH1CSMU1
+PowerPAD
+
+
+0
+49
+21
+ETH1CSMU1
+SA
+LOW-PROFILE SURFACE-MOUNT RELAY
+
+0
+10
+10
+ETH1CSMU1
 SO8E
 module CMS SOJ 8 pins etroit
+CMS SOJ
+0
+8
+8
+ETH1CSMU1
+SO8N
+Module CMS SOJ 8 pins large
 CMS SOJ
 0
 8
@@ -46201,11 +46341,32 @@ Socket_DIN41612-CaseC1-AC-Male-64Pin-2rows
 65
 ETH1CSMU1
 TCK-141
-5.6μH±20%(at100kHz/250mV)
+Inductor
 
 0
 2
 2
+ETH1CSMU1
+TEL10
+
+
+0
+6
+6
+ETH1CSMU1
+THL15
+THL 15WI Series, 15 Watt
+
+0
+6
+6
+ETH1CSMU1
+TO-71
+
+
+0
+6
+6
 ETH1CSMU1
 TO-252-2_Rectifier
 TO-252-2
@@ -46221,12 +46382,33 @@ TQFP QFP
 144
 144
 ETH1CSMU1
+TSR1
+DC/DC Converter TSR 1 Series, 1 A
+
+0
+3
+3
+ETH1CSMU1
 TSR2
 DC/DC Converter TSR 2 Series, 2 A
 
 0
 3
 3
+ETH1CSMU1
+TSSOP-54
+
+SSOP 0.8
+0
+54
+54
+ETH1CSMU1
+WSR5
+
+
+0
+2
+2
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters

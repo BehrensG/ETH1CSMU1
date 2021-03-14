@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ETH1CSMU1)(type Legacy)(uri /home/grzegorz/git/ETH1CSMU1/HARDWARE/lib/sch/ETH1CSMU1.lib)(options "")(descr ""))
+)

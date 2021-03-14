@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Si8661
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 1.0kV isolation, Fail-Safe Low, QSOP-16
+K 4Ch 3In 1Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+#End Doc Library

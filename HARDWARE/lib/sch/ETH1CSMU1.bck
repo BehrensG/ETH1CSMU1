@@ -1,9 +1,54 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD5686RARUZ
+D Quad, 16-/12-Bit nanoDAC+with SPI Interface
+K dac 4nch 16bit spi
+$ENDCMP
+#
+$CMP AD7190RUZ
+D 4.8 kHz Ultralow Noise 24-Bit Sigma-Delta ADC with PGA
+K ADC low nois 24-bit
+$ENDCMP
+#
+$CMP ADR431ARZ
+D Ultralow Noise XFET Voltage References with Current Sink and Source Capability
+K Voltage Reference 2.5V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADR430_431_433_434_435.pdf
+$ENDCMP
+#
+$CMP ADS8681PWR
+D 16-Bit, High-Speed, Single-Supply, SAR ADC Data Acquisition System with Programmable, Bipolar Input Ranges, 1MSPS, QFN-16
+K ADC SPI analog digital
+F http://www.ti.com/lit/ds/symlink/ads8681.pdf
+$ENDCMP
+#
+$CMP ADS8681RUM
+D 16-Bit, High-Speed, Single-Supply, SAR ADC Data Acquisition System with Programmable, Bipolar Input Ranges, 1MSPS, QFN-16
+K ADC SPI analog digital
+F http://www.ti.com/lit/ds/symlink/ads8681.pdf
+$ENDCMP
+#
+$CMP CPC1018N
+D Form A, Solid State Relay (Photo MOSFET) 60V, 0.6A, 0.8Ohm, SO-4
+K MOSFET Output Photorelay 1-Form-A
+F http://www.ixysic.com/home/pdfs.nsf/www/CPC1017N.pdf/$file/CPC1017N.pdf
+$ENDCMP
+#
 $CMP Si8661
 D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 1.0kV isolation, Fail-Safe Low, QSOP-16
 K 4Ch 3In 1Out Quad Digital Isolator 150Mbps
 F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP TLC2272
+D TLC227x,TLC227xA:AdvancedLinCMOSRail-to-RailOperationalAmplifiers
+K Op Amp
+F https://www.ti.com/lit/ds/symlink/tlc2272.pdf
+$ENDCMP
+#
+$CMP TRN3
+D The TRN 3SM Series comprises 3 Watt fully regulated, high performance DC/DC converters.
+F https://www.tracopower.com/sites/default/files/products/datasheets/trn3sm_datasheet.pdf
 $ENDCMP
 #
 #End Doc Library

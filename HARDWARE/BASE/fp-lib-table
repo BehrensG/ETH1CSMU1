@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ETH1CSMU1)(type KiCad)(uri /home/grzegorz/git/ETH1CSMU1/HARDWARE/lib/pcb/ETH1CSMU1.pretty)(options "")(descr ""))
+)

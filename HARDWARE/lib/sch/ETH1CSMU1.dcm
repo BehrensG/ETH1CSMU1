@@ -6,4 +6,9 @@ K 4Ch 3In 1Out Quad Digital Isolator 150Mbps
 F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
 $ENDCMP
 #
+$CMP TRN3
+D The TRN 3SM Series comprises 3 Watt fully regulated, high performance DC/DC converters. 
+F https://www.tracopower.com/sites/default/files/products/datasheets/trn3sm_datasheet.pdf
+$ENDCMP
+#
 #End Doc Library

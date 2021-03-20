@@ -28,6 +28,27 @@ K MOSFET Output Photorelay 1-Form-A
 F http://www.ixysic.com/home/pdfs.nsf/www/CPC1017N.pdf/$file/CPC1017N.pdf
 $ENDCMP
 #
+$CMP LT8570_MS8E
+D Boost/SEPIC/InvertingDC/DC Converter with 65VSwitch, Soft-Start and Synchronization
+F https://www.analog.com/media/en/technical-documentation/data-sheets/85701fa.pdf
+$ENDCMP
+#
+$CMP MEE1S0303DC
+D 1W, 1000 VDC isolated DC/DC converter, 3V3 input, 3V3 output, SIP
+K murata DC/DC isolated converter
+F https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf
+$ENDCMP
+#
+$CMP MSD7342-124
+D Shielded Coupled Inductors
+F https://www.mouser.de/datasheet/2/597/msd7342-220556.pdf
+$ENDCMP
+#
+$CMP Si8606
+D Bidirectional I2C Isolators with Unidirectional Digital Channels
+F https://www.silabs.com/documents/public/data-sheets/Si860x.pdf
+$ENDCMP
+#
 $CMP Si8661
 D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 1.0kV isolation, Fail-Safe Low, QSOP-16
 K 4Ch 3In 1Out Quad Digital Isolator 150Mbps
@@ -36,7 +57,7 @@ $ENDCMP
 #
 $CMP TLC2272
 D TLC227x,TLC227xA:AdvancedLinCMOSRail-to-RailOperationalAmplifiers
-K Op Amp 
+K Op Amp
 F https://www.ti.com/lit/ds/symlink/tlc2272.pdf
 $ENDCMP
 #

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 12
 Title ""
 Date ""
 Rev ""
@@ -54,7 +54,7 @@ Wire Wire Line
 Wire Wire Line
 	7250 4650 7450 4650
 Wire Wire Line
-	7450 4750 7250 4750
+	7450 4750 7350 4750
 Wire Wire Line
 	7250 4850 7450 4850
 Wire Wire Line
@@ -141,6 +141,8 @@ F23 "D[0..15]" B L 5600 5850 50
 F24 "A[0..12]" B L 5600 5750 50 
 F25 "BA0" B L 5600 4750 50 
 F26 "BA1" B L 5600 4850 50 
+F27 "SWDIO" B R 7250 3250 50 
+F28 "SWCLK" I R 7250 3350 50 
 $EndSheet
 $Sheet
 S 900  6700 1650 850 
@@ -211,4 +213,30 @@ F23 "FGEN_AMP" I L 3700 2800 50
 F24 "FDACLO" I R 5350 4200 50 
 F25 "FDACN" O L 3700 2700 50 
 $EndSheet
+$Sheet
+S 1550 2200 1700 2200
+U 60575ED4
+F0 "Analog" 50
+F1 "Analog.sch" 50
+$EndSheet
+$Sheet
+S 7450 3150 1150 450 
+U 614A2A49
+F0 "SWD Isolated" 50
+F1 "SWD_Isolated.sch" 50
+F2 "SWDIO" B L 7450 3250 50 
+F3 "SWCLK" O L 7450 3350 50 
+F4 "NRST" B L 7450 3450 50 
+$EndSheet
+Wire Wire Line
+	7450 3250 7250 3250
+Wire Wire Line
+	7250 3350 7450 3350
+Wire Wire Line
+	7450 3450 7350 3450
+Wire Wire Line
+	7350 3450 7350 4750
+Connection ~ 7350 4750
+Wire Wire Line
+	7350 4750 7250 4750
 $EndSCHEMATC

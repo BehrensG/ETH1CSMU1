@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 9 11
+Sheet 9 12
 Title ""
 Date ""
 Rev ""
@@ -696,10 +696,6 @@ Wire Wire Line
 	3800 5500 4250 5500
 Wire Wire Line
 	3350 3550 3800 3550
-Text HLabel 3400 3650 2    50   Output ~ 0
-DAC_SP
-Wire Wire Line
-	3400 3650 3350 3650
 Wire Wire Line
 	5750 2150 5350 2150
 Connection ~ 5350 2150
@@ -3082,4 +3078,15 @@ Wire Wire Line
 	7600 6400 7100 6400
 Text Label 6750 800  2    50   ~ 0
 FDACLO_SEL
+$Comp
+L Connector:TestPoint TP?
+U 1 1 627031F9
+P 3350 3650
+F 0 "TP?" V 3304 3838 50  0000 L CNN
+F 1 "TPDAC" V 3395 3838 50  0000 L CNN
+F 2 "" H 3550 3650 50  0001 C CNN
+F 3 "~" H 3550 3650 50  0001 C CNN
+	1    3350 3650
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

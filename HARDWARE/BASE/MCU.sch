@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 5 11
+Sheet 5 12
 Title "MCU"
 Date "2020-03-07"
 Rev "1.00"
@@ -1758,6 +1758,16 @@ Text HLabel 3200 4500 0    50   BiDi ~ 0
 SWDIO
 Text HLabel 3200 4600 0    50   Input ~ 0
 SWCLK
+Text HLabel 15550 3500 2    50   Output ~ 0
+CXN_REL5
+Text HLabel 15550 3400 2    50   Output ~ 0
+CXN_REL4
+Text HLabel 15550 3300 2    50   Output ~ 0
+CXN_REL3
+Text HLabel 15550 3200 2    50   Output ~ 0
+CXN_REL2
+Text HLabel 15550 3100 2    50   Output ~ 0
+CXN_REL1
 Wire Bus Line
 	1550 4100 1550 5500
 Wire Bus Line

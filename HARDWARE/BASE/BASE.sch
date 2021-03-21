@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 12
+Sheet 1 11
 Title ""
 Date ""
 Rev ""
@@ -143,12 +143,6 @@ F25 "BA0" B L 5600 4750 50
 F26 "BA1" B L 5600 4850 50 
 F27 "SWDIO" B R 7250 3250 50 
 F28 "SWCLK" I R 7250 3350 50 
-$EndSheet
-$Sheet
-S 900  6700 1650 850 
-U 60626568
-F0 "High Voltage Power" 50
-F1 "HV_Power.sch" 50
 $EndSheet
 $Sheet
 S 8900 1400 1650 4550

@@ -572,7 +572,7 @@
   )
 
   (module Package_SO:SOIC-16_3.9x9.9mm_P1.27mm (layer F.Cu) (tedit 5D9F72B1) (tstamp 605776CC)
-    (at 126.746 120.65)
+    (at 122.682 121.92)
     (descr "SOIC, 16 Pin (JEDEC MS-012AC, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (path /614A2A49/614B5746)
@@ -633,7 +633,7 @@
   )
 
   (module ETH1CSMU1:MEE1_DIP (layer F.Cu) (tedit 605693FB) (tstamp 605776AA)
-    (at 125.222 107.442 90)
+    (at 122.682 108.204 90)
     (descr "Isolated 1W Single Output DC-DC Converters")
     (path /614A2A49/6155D8C0)
     (fp_text reference U1101 (at 0 0.5 90) (layer F.SilkS)
@@ -6175,8 +6175,8 @@
     )
   )
 
-  (module Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical (layer F.Cu) (tedit 59FED6E3) (tstamp 6058B167)
-    (at 126.492 129.54 270)
+  (module Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical (layer F.Cu) (tedit 59FED6E3) (tstamp 60576BB6)
+    (at 136.398 158.242 270)
     (descr "Through hole straight pin header, 2x05, 1.27mm pitch, double rows")
     (tags "Through hole pin header THT 2x05 1.27mm double row")
     (path /614A2A49/614D5619)

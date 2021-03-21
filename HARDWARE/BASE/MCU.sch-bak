@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 5 12
+Sheet 5 11
 Title "MCU"
 Date "2020-03-07"
 Rev "1.00"
@@ -1754,12 +1754,12 @@ Wire Wire Line
 	3600 900  2750 900 
 Connection ~ 2750 900 
 NoConn ~ 3650 4700
-Wire Bus Line
-	1550 4100 1550 5500
-Wire Bus Line
-	1550 2250 1550 3850
 Text HLabel 3200 4500 0    50   BiDi ~ 0
 SWDIO
 Text HLabel 3200 4600 0    50   Input ~ 0
 SWCLK
+Wire Bus Line
+	1550 4100 1550 5500
+Wire Bus Line
+	1550 2250 1550 3850
 $EndSCHEMATC

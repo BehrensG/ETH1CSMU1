@@ -39,12 +39,6 @@ K murata DC/DC isolated converter
 F https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf
 $ENDCMP
 #
-$CMP MEE1S0303SC
-D 1W, 1000 VDC isolated DC/DC converter, 3V3 input, 3V3 output, SIP
-K murata DC/DC isolated converter
-F https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf
-$ENDCMP
-#
 $CMP MSD7342-124
 D Shielded Coupled Inductors
 F https://www.mouser.de/datasheet/2/597/msd7342-220556.pdf

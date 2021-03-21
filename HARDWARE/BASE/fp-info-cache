@@ -1,4 +1,4 @@
-18890349858676352
+18890349859145352
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50905,11 +50905,11 @@ LMx99
 4
 ETH1CSMU1
 MEE1_DIP
+Isolated 1W Single Output DC-DC Converters
 
-
 0
-0
-0
+4
+4
 ETH1CSMU1
 MSD7342
 Shielded Coupled Inductors

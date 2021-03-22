@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 13 13
+Sheet 13 12
 Title "Function generator"
 Date "2020-01-19"
 Rev "1.0"

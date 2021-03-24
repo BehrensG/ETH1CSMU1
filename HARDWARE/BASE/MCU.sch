@@ -1473,10 +1473,6 @@ NoConn ~ 15050 7300
 NoConn ~ 15050 7200
 NoConn ~ 3650 5100
 NoConn ~ 3650 2500
-NoConn ~ 3650 2100
-NoConn ~ 3650 2200
-NoConn ~ 3650 2300
-NoConn ~ 3650 2400
 NoConn ~ 3650 3700
 NoConn ~ 3650 4100
 NoConn ~ 3650 4200
@@ -1768,6 +1764,14 @@ Text HLabel 15550 3200 2    50   Output ~ 0
 CXN_REL2
 Text HLabel 15550 3100 2    50   Output ~ 0
 CXN_REL1
+Wire Wire Line
+	3650 2400 3600 2400
+Wire Wire Line
+	3650 2300 3600 2300
+Wire Wire Line
+	3650 2200 3600 2200
+Wire Wire Line
+	3650 2100 3600 2100
 Wire Bus Line
 	1550 4100 1550 5500
 Wire Bus Line

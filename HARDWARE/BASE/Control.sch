@@ -2033,7 +2033,7 @@ $EndComp
 Wire Wire Line
 	6050 3000 6050 2550
 Text HLabel 5700 2350 0    50   Input ~ 0
-FGEN_AMP
+SIGN_SEL
 Wire Wire Line
 	5700 2350 5750 2350
 Text HLabel 8450 6400 2    50   Input ~ 0

@@ -736,22 +736,19 @@ Wire Wire Line
 	15050 2600 15100 2600
 Text HLabel 15750 8700 2    50   BiDi ~ 0
 NRST
-Text HLabel 15100 7700 2    50   Output ~ 0
+Text HLabel 15100 6500 2    50   Output ~ 0
 TRIG_EN
-Text HLabel 15100 7600 2    50   Output ~ 0
+Text HLabel 15100 6400 2    50   Output ~ 0
 TRIG_OUT
-Text HLabel 15100 7500 2    50   Input ~ 0
+Text HLabel 15100 6300 2    50   Input ~ 0
 TRIG_IN
 Wire Wire Line
-	15100 7500 15050 7500
+	15100 6300 15050 6300
 Wire Wire Line
-	15100 7600 15050 7600
+	15100 6400 15050 6400
 Wire Wire Line
-	15050 7700 15100 7700
+	15050 6500 15100 6500
 NoConn ~ 3650 3500
-NoConn ~ 3650 3600
-NoConn ~ 3650 3800
-NoConn ~ 3650 5200
 NoConn ~ 15050 2400
 NoConn ~ 15050 6700
 NoConn ~ 15050 7000
@@ -1469,11 +1466,8 @@ Wire Wire Line
 	1850 9400 2050 9400
 Connection ~ 1850 9400
 NoConn ~ 15050 7400
-NoConn ~ 15050 7300
 NoConn ~ 15050 7200
-NoConn ~ 3650 5100
 NoConn ~ 3650 2500
-NoConn ~ 3650 3700
 NoConn ~ 3650 4100
 NoConn ~ 3650 4200
 NoConn ~ 3650 4300
@@ -1486,12 +1480,7 @@ NoConn ~ 15050 2100
 NoConn ~ 15050 1900
 NoConn ~ 15050 1800
 NoConn ~ 15050 1500
-NoConn ~ 15050 7800
-NoConn ~ 15050 4800
 NoConn ~ 15050 4900
-NoConn ~ 15050 5000
-NoConn ~ 15050 5100
-NoConn ~ 15050 5200
 $Comp
 L ETH1CSMU1:STM32H743ZI U501
 U 1 1 60365EFD
@@ -1515,9 +1504,6 @@ Entry Wire Line
 	1650 5300 1550 5400
 Entry Wire Line
 	1650 5400 1550 5500
-NoConn ~ 15050 6300
-NoConn ~ 15050 6400
-NoConn ~ 15050 6500
 $Comp
 L power:+3.3V #PWR0518
 U 1 1 605724BF
@@ -1639,15 +1625,6 @@ F 3 "" H 15500 8350 50  0001 C CNN
 	1    15500 8350
 	1    0    0    -1  
 $EndComp
-NoConn ~ 15050 3600
-NoConn ~ 15050 3500
-NoConn ~ 15050 3400
-NoConn ~ 15050 3300
-NoConn ~ 15050 3200
-NoConn ~ 15050 3100
-NoConn ~ 3650 6100
-NoConn ~ 3650 6000
-NoConn ~ 3650 5900
 $Comp
 L power:+3.3V #PWR0507
 U 1 1 60600C51
@@ -1749,20 +1726,15 @@ Wire Wire Line
 Wire Wire Line
 	3600 900  2750 900 
 Connection ~ 2750 900 
-NoConn ~ 3650 4700
-Text HLabel 3200 4500 0    50   BiDi ~ 0
-SWDIO
-Text HLabel 3200 4600 0    50   Input ~ 0
-SWCLK
-Text HLabel 15550 3500 2    50   Output ~ 0
+Text HLabel 15100 3500 2    50   Output ~ 0
 CXN_REL5
-Text HLabel 15550 3400 2    50   Output ~ 0
+Text HLabel 15100 3400 2    50   Output ~ 0
 CXN_REL4
-Text HLabel 15550 3300 2    50   Output ~ 0
+Text HLabel 15100 3300 2    50   Output ~ 0
 CXN_REL3
-Text HLabel 15550 3200 2    50   Output ~ 0
+Text HLabel 15100 3200 2    50   Output ~ 0
 CXN_REL2
-Text HLabel 15550 3100 2    50   Output ~ 0
+Text HLabel 15100 3100 2    50   Output ~ 0
 CXN_REL1
 Wire Wire Line
 	3650 2400 3600 2400
@@ -1772,6 +1744,91 @@ Wire Wire Line
 	3650 2200 3600 2200
 Wire Wire Line
 	3650 2100 3600 2100
+Text HLabel 15100 4800 2    50   Output ~ 0
+SPI4_SCK
+Wire Wire Line
+	15100 4800 15050 4800
+Text HLabel 15100 5000 2    50   Output ~ 0
+SPI4_NSS
+Wire Wire Line
+	15100 5000 15050 5000
+Text HLabel 15100 5100 2    50   Input ~ 0
+SPI4_MISO
+Wire Wire Line
+	15100 5100 15050 5100
+Text HLabel 15100 5200 2    50   Output ~ 0
+SPI4_MOSI
+Wire Wire Line
+	15100 5200 15050 5200
+Text HLabel 3600 2100 0    50   Output ~ 0
+SPI5_NSS
+Text HLabel 3600 2200 0    50   Output ~ 0
+SPI5_SCK
+Text HLabel 3600 2300 0    50   Input ~ 0
+SPI5_MISO
+Text HLabel 3600 2400 0    50   Output ~ 0
+SPI5_MOSI
+Text HLabel 15100 7700 2    50   Input ~ 0
+SPI2_MISO
+Wire Wire Line
+	15100 7700 15050 7700
+Text HLabel 15100 7800 2    50   Output ~ 0
+SPI2_MOSI
+Wire Wire Line
+	15100 7800 15050 7800
+Text HLabel 15100 7500 2    50   Output ~ 0
+SPI2_NSS
+Wire Wire Line
+	15050 7500 15100 7500
+Text HLabel 15100 7600 2    50   Output ~ 0
+SPI2_SCK
+Wire Wire Line
+	15050 7600 15100 7600
+Text HLabel 3600 3600 0    50   Output ~ 0
+SPI1_NSS
+Wire Wire Line
+	3600 3600 3650 3600
+Text HLabel 3600 3700 0    50   Output ~ 0
+SPI1_SCK
+Wire Wire Line
+	3600 3700 3650 3700
+Text HLabel 3600 3800 0    50   Input ~ 0
+SPI1_MISO
+Wire Wire Line
+	3600 3800 3650 3800
+Text HLabel 15100 3600 2    50   Output ~ 0
+SPI1_MOSI
+Wire Wire Line
+	15100 3600 15050 3600
+Text HLabel 3600 6100 0    50   Output ~ 0
+SPI3_MOSI
+Wire Wire Line
+	3600 6100 3650 6100
+Text HLabel 3600 6000 0    50   Input ~ 0
+SPI3_MISO
+Wire Wire Line
+	3600 6000 3650 6000
+Text HLabel 3600 5900 0    50   Output ~ 0
+SPI3_SCK
+Wire Wire Line
+	3600 5900 3650 5900
+Text HLabel 3600 4700 0    50   Output ~ 0
+SPI3_NSS
+Wire Wire Line
+	3600 4700 3650 4700
+Wire Wire Line
+	15050 3500 15100 3500
+Wire Wire Line
+	15050 3400 15100 3400
+Wire Wire Line
+	15050 3300 15100 3300
+Wire Wire Line
+	15050 3200 15100 3200
+Wire Wire Line
+	15050 3100 15100 3100
+NoConn ~ 15050 7300
+NoConn ~ 3650 5100
+NoConn ~ 3650 5200
 Wire Bus Line
 	1550 4100 1550 5500
 Wire Bus Line

@@ -387,4 +387,59 @@ Wire Wire Line
 	5100 3800 4850 3800
 Wire Wire Line
 	4850 3900 5100 3900
+$Comp
+L Mechanical:MountingHole H103
+U 1 1 6087851F
+P 700 7450
+F 0 "H103" H 800 7496 50  0000 L CNN
+F 1 "MountingHole" H 800 7405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 700 7450 50  0001 C CNN
+F 3 "~" H 700 7450 50  0001 C CNN
+	1    700  7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H104
+U 1 1 60878671
+P 1450 7450
+F 0 "H104" H 1550 7496 50  0000 L CNN
+F 1 "MountingHole" H 1550 7405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1450 7450 50  0001 C CNN
+F 3 "~" H 1450 7450 50  0001 C CNN
+	1    1450 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H101
+U 1 1 608788EB
+P 700 7200
+F 0 "H101" H 800 7246 50  0000 L CNN
+F 1 "MountingHole" H 800 7155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 700 7200 50  0001 C CNN
+F 3 "~" H 700 7200 50  0001 C CNN
+	1    700  7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H102
+U 1 1 60878C14
+P 1450 7200
+F 0 "H102" H 1550 7246 50  0000 L CNN
+F 1 "MountingHole" H 1550 7155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1450 7200 50  0001 C CNN
+F 3 "~" H 1450 7200 50  0001 C CNN
+	1    1450 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L ETH1CSMU1:60817-096 M101
+U 1 1 605FD6AD
+P 2200 7550
+F 0 "M101" H 2528 7896 50  0000 L CNN
+F 1 "60817-096" H 2528 7805 50  0000 L CNN
+F 2 "ETH1CSMU1:60817-096" H 2200 7550 50  0001 C CNN
+F 3 "" H 2200 7550 50  0001 C CNN
+	1    2200 7550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

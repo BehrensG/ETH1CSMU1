@@ -3613,8 +3613,6 @@ Wire Wire Line
 Text Label 6450 600  3    50   ~ 0
 AMPIN
 Wire Wire Line
-	6450 600  6450 900 
-Wire Wire Line
 	6750 900  6750 850 
 Wire Wire Line
 	6650 900  6650 850 
@@ -3691,13 +3689,13 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_02x12_Odd_Even J1001
 U 1 1 60CB8954
-P 6350 1100
-F 0 "J1001" V 6354 1680 50  0000 L CNN
-F 1 "Conn_02x12" V 6445 1680 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical" H 6350 1100 50  0001 C CNN
-F 3 "~" H 6350 1100 50  0001 C CNN
-	1    6350 1100
-	0    1    1    0   
+P 6250 1200
+F 0 "J1001" V 6350 250 50  0000 L CNN
+F 1 "Conn_02x12" V 6250 50  50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical" H 6250 1200 50  0001 C CNN
+F 3 "~" H 6250 1200 50  0001 C CNN
+	1    6250 1200
+	0    -1   -1   0   
 $EndComp
 NoConn ~ 6250 900 
 NoConn ~ 6250 1400
@@ -3705,4 +3703,6 @@ NoConn ~ 5850 900
 NoConn ~ 5750 900 
 NoConn ~ 5750 1400
 NoConn ~ 5850 1400
+Wire Wire Line
+	6450 600  6450 900 
 $EndSCHEMATC

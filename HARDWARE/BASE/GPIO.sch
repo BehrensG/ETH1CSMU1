@@ -19,8 +19,6 @@ Text HLabel 5000 2650 0    50   Output ~ 0
 ~100mA
 Text HLabel 7000 2650 0    50   Output ~ 0
 ~10mA
-Text HLabel 950  1300 0    50   Output ~ 0
-10mA
 Text HLabel 9200 1300 0    50   Output ~ 0
 ~100uA
 Text HLabel 7000 4050 0    50   Output ~ 0
@@ -39,71 +37,6 @@ Text HLabel 3000 2650 0    50   Output ~ 0
 ~VMODE
 Text HLabel 5000 1300 0    50   Output ~ 0
 ~IMODE
-$Comp
-L Logic_LevelTranslator:SN74LVC1T45DBV U?
-U 1 1 60C32408
-P 1400 1300
-AR Path="/608EADFA/60C32408" Ref="U?"  Part="1" 
-AR Path="/60E4AF69/60C32408" Ref="U1201"  Part="1" 
-F 0 "U1201" H 1900 1750 50  0000 L CNN
-F 1 "SN74LVC1T45DBV" H 1650 1650 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 1400 850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf" H 500 650 50  0001 C CNN
-	1    1400 1300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1000 1500 950  1500
-Wire Wire Line
-	950  1500 950  1750
-Wire Wire Line
-	950  1750 1400 1750
-Wire Wire Line
-	1400 1750 1400 1700
-$Comp
-L power:+5V #PWR?
-U 1 1 60C32412
-P 1300 900
-AR Path="/608EADFA/60C32412" Ref="#PWR?"  Part="1" 
-AR Path="/60E4AF69/60C32412" Ref="#PWR01201"  Part="1" 
-F 0 "#PWR01201" H 1300 750 50  0001 C CNN
-F 1 "+5V" H 1300 1050 50  0000 C CNN
-F 2 "" H 1300 900 50  0001 C CNN
-F 3 "" H 1300 900 50  0001 C CNN
-	1    1300 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 60C32418
-P 1500 900
-AR Path="/608EADFA/60C32418" Ref="#PWR?"  Part="1" 
-AR Path="/60E4AF69/60C32418" Ref="#PWR01202"  Part="1" 
-F 0 "#PWR01202" H 1500 750 50  0001 C CNN
-F 1 "+3.3V" H 1500 1050 50  0000 C CNN
-F 2 "" H 1500 900 50  0001 C CNN
-F 3 "" H 1500 900 50  0001 C CNN
-	1    1500 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60C3241E
-P 1400 1800
-AR Path="/608EADFA/60C3241E" Ref="#PWR?"  Part="1" 
-AR Path="/60E4AF69/60C3241E" Ref="#PWR01211"  Part="1" 
-F 0 "#PWR01211" H 1400 1550 50  0001 C CNN
-F 1 "GND" H 1405 1627 50  0000 C CNN
-F 2 "" H 1400 1800 50  0001 C CNN
-F 3 "" H 1400 1800 50  0001 C CNN
-	1    1400 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1400 1800 1400 1750
-Connection ~ 1400 1750
-Wire Wire Line
-	2400 1300 1800 1300
 $Comp
 L Logic_LevelTranslator:SN74LVC1T45DBV U?
 U 1 1 60C32429
@@ -236,8 +169,6 @@ Wire Wire Line
 	2400 4050 1800 4050
 Wire Wire Line
 	1000 2650 950  2650
-Wire Wire Line
-	1000 1300 950  1300
 Wire Wire Line
 	1000 4050 950  4050
 $Comp
@@ -1643,8 +1574,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 9650 4050 
 	1    9450 5150
 	1    0    0    -1  
 $EndComp
-Text Label 2400 1300 2    50   ~ 0
-MCU_10mA
 Text Label 2400 2650 2    50   ~ 0
 GPIO_REL2_CTR
 Text Label 2400 4050 2    50   ~ 0
@@ -1704,10 +1633,6 @@ F 3 "~" H 6950 6150 50  0001 C CNN
 	1    6950 6150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10750 4350 10150 4350
-Text Label 10750 4350 2    50   ~ 0
-MCU_10mA
 Wire Wire Line
 	10750 4450 10150 4450
 Text Label 10750 4450 2    50   ~ 0
@@ -1828,4 +1753,79 @@ Wire Wire Line
 	3350 6350 3800 6350
 Wire Wire Line
 	3350 5950 3800 5950
+Wire Wire Line
+	10750 4350 10150 4350
+Text Label 2450 1300 2    50   ~ 0
+GPIO_10-100mA
+Wire Wire Line
+	1000 1300 950  1300
+Wire Wire Line
+	2450 1300 1800 1300
+$Comp
+L power:GND #PWR?
+U 1 1 60C3241E
+P 1400 1800
+AR Path="/608EADFA/60C3241E" Ref="#PWR?"  Part="1" 
+AR Path="/60E4AF69/60C3241E" Ref="#PWR01211"  Part="1" 
+F 0 "#PWR01211" H 1400 1550 50  0001 C CNN
+F 1 "GND" H 1405 1627 50  0000 C CNN
+F 2 "" H 1400 1800 50  0001 C CNN
+F 3 "" H 1400 1800 50  0001 C CNN
+	1    1400 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60C32418
+P 1500 900
+AR Path="/608EADFA/60C32418" Ref="#PWR?"  Part="1" 
+AR Path="/60E4AF69/60C32418" Ref="#PWR01202"  Part="1" 
+F 0 "#PWR01202" H 1500 750 50  0001 C CNN
+F 1 "+3.3V" H 1500 1050 50  0000 C CNN
+F 2 "" H 1500 900 50  0001 C CNN
+F 3 "" H 1500 900 50  0001 C CNN
+	1    1500 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60C32412
+P 1300 900
+AR Path="/608EADFA/60C32412" Ref="#PWR?"  Part="1" 
+AR Path="/60E4AF69/60C32412" Ref="#PWR01201"  Part="1" 
+F 0 "#PWR01201" H 1300 750 50  0001 C CNN
+F 1 "+5V" H 1300 1050 50  0000 C CNN
+F 2 "" H 1300 900 50  0001 C CNN
+F 3 "" H 1300 900 50  0001 C CNN
+	1    1300 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1800 1400 1750
+Wire Wire Line
+	1400 1750 1400 1700
+Connection ~ 1400 1750
+Wire Wire Line
+	950  1750 1400 1750
+Wire Wire Line
+	950  1500 950  1750
+Wire Wire Line
+	1000 1500 950  1500
+$Comp
+L Logic_LevelTranslator:SN74LVC1T45DBV U?
+U 1 1 60C32408
+P 1400 1300
+AR Path="/608EADFA/60C32408" Ref="U?"  Part="1" 
+AR Path="/60E4AF69/60C32408" Ref="U1201"  Part="1" 
+F 0 "U1201" H 1900 1750 50  0000 L CNN
+F 1 "SN74LVC1T45DBV" H 1650 1650 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 1400 850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf" H 500 650 50  0001 C CNN
+	1    1400 1300
+	1    0    0    -1  
+$EndComp
+Text HLabel 950  1300 0    50   Output ~ 0
+10-100mA
+Text Label 10750 4350 2    50   ~ 0
+GPIO_10-100mA
 $EndSCHEMATC

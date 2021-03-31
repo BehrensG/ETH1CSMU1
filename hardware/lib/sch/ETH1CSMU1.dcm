@@ -1,306 +1,69 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP +10VRF
-D Power symbol creates a global label with name "+10VRF"
-K power-flag
+$CMP AD5686RARUZ
+D Quad, 16-/12-Bit nanoDAC+with SPI Interface
+K dac 4nch 16bit spi
 $ENDCMP
 #
-$CMP +15VF
-D Power symbol creates a global label with name "+15VF"
-K power-flag
+$CMP AD7190RUZ
+D 4.8 kHz Ultralow Noise 24-Bit Sigma-Delta ADC with PGA
+K ADC low nois 24-bit
 $ENDCMP
 #
-$CMP +24VDD
-D Power symbol creates a global label with name "+24VDD"
-K power-flag
+$CMP ADR431ARZ
+D Ultralow Noise XFET Voltage References with Current Sink and Source Capability
+K Voltage Reference 2.5V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADR430_431_433_434_435.pdf
 $ENDCMP
 #
-$CMP +24VF
-D Power symbol creates a global label with name "+24VF"
-K power-flag
+$CMP ADS8681PWR
+D 16-Bit, High-Speed, Single-Supply, SAR ADC Data Acquisition System with Programmable, Bipolar Input Ranges, 1MSPS, QFN-16
+K ADC SPI analog digital
+F http://www.ti.com/lit/ds/symlink/ads8681.pdf
 $ENDCMP
 #
-$CMP +24V_HV1
-D Power symbol creates a global label with name "+24V_HV1"
-K power-flag
+$CMP CPC1018N
+D Form A, Solid State Relay (Photo MOSFET) 60V, 0.6A, 0.8Ohm, SO-4
+K MOSFET Output Photorelay 1-Form-A
+F http://www.ixysic.com/home/pdfs.nsf/www/CPC1017N.pdf/$file/CPC1017N.pdf
 $ENDCMP
 #
-$CMP +24V_HV2
-D Power symbol creates a global label with name "+24V_HV2"
-K power-flag
+$CMP LT8570_MS8E
+D Boost/SEPIC/InvertingDC/DC Converter with 65VSwitch, Soft-Start and Synchronization
+F https://www.analog.com/media/en/technical-documentation/data-sheets/85701fa.pdf
 $ENDCMP
 #
-$CMP +3.3DVF
-D Power symbol creates a global label with name "+3.3DVF"
-K power-flag
+$CMP MEE1S0303DC
+D 1W, 1000 VDC isolated DC/DC converter, 3V3 input, 3V3 output, SIP
+K murata DC/DC isolated converter
+F https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf
 $ENDCMP
 #
-$CMP +3.3VF
-D Power symbol creates a global label with name "+3.3VF"
-K power-flag
+$CMP MSD7342-124
+D Shielded Coupled Inductors
+F https://www.mouser.de/datasheet/2/597/msd7342-220556.pdf
 $ENDCMP
 #
-$CMP +30VF
-D Power symbol creates a global label with name "+30VF"
-K power-flag
+$CMP Si8606
+D Bidirectional I2C Isolators with Unidirectional Digital Channels
+F https://www.silabs.com/documents/public/data-sheets/Si860x.pdf
 $ENDCMP
 #
-$CMP +48VF
-D Power symbol creates a global label with name "+48VF"
-K power-flag
+$CMP Si8661
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 1.0kV isolation, Fail-Safe Low, QSOP-16
+K 4Ch 3In 1Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
 $ENDCMP
 #
-$CMP +48V_HV1
-D Power symbol creates a global label with name "+48V_HV1"
-K power-flag
+$CMP TLC2272
+D TLC227x,TLC227xA:AdvancedLinCMOSRail-to-RailOperationalAmplifiers
+K Op Amp
+F https://www.ti.com/lit/ds/symlink/tlc2272.pdf
 $ENDCMP
 #
-$CMP +48V_HV2
-D Power symbol creates a global label with name "+48V_HV2"
-K power-flag
-$ENDCMP
-#
-$CMP +5VF
-D Power symbol creates a global label with name "+5VF"
-K power-flag
-$ENDCMP
-#
-$CMP +5V_TRIG
-D Power symbol creates a global label with name "+5V_TRIG"
-K power-flag
-$ENDCMP
-#
-$CMP +BOT_DRIVE
-D Power symbol creates a global label with name "+BOT_DRIVE"
-K power-flag
-$ENDCMP
-#
-$CMP +HV
-D Power symbol creates a global label with name "+HV"
-K power-flag
-$ENDCMP
-#
-$CMP +TOP_DRIVE
-D Power symbol creates a global label with name "+TOP_DRIVE"
-K power-flag
-$ENDCMP
-#
-$CMP +ZENER
-D Power symbol creates a global label with name "+10ZENER"
-K power-flag
-$ENDCMP
-#
-$CMP -15VF
-D Power symbol creates a global label with name "-15VF"
-K power-flag
-$ENDCMP
-#
-$CMP -30VF
-D Power symbol creates a global label with name "+30VF"
-K power-flag
-$ENDCMP
-#
-$CMP -BOT_DRIVE
-D Power symbol creates a global label with name "-BOT_DRIVE"
-K power-flag
-$ENDCMP
-#
-$CMP -HV
-D Power symbol creates a global label with name "-HV"
-K power-flag
-$ENDCMP
-#
-$CMP -TOP_DRIVE
-D Power symbol creates a global label with name "-TOP_DRIVE"
-K power-flag
-$ENDCMP
-#
-$CMP -ZENER
-D Power symbol creates a global label with name "-10ZENER"
-K power-flag
-$ENDCMP
-#
-$CMP 7448013501
-D CMC 500UH 3.5A 2LN TH
-$ENDCMP
-#
-$CMP 7448014501
-D Common Mode Chokes / Filters WE-CMBNC Type XS Nancrystl 10kHz 4.5A
-$ENDCMP
-#
-$CMP 74489440068
-D Coupled Inductur WE-TDC 8038
-$ENDCMP
-#
-$CMP 749010012A
-D LAN Transformer
-$ENDCMP
-#
-$CMP AD5544_TSSOP
-D Quad, Current-Output, Serial-Input 16 DACs
-$ENDCMP
-#
-$CMP AD55x4_TSSOP
-D Quad, Current-Output, Serial-Input 16-/14-Bit DACs
-$ENDCMP
-#
-$CMP AD744
-D Precision, 500 ns Settling BiFET Op Amp
-K single opamp
-F http://www.ti.com/lit/ds/symlink/ne5534.pdf
-$ENDCMP
-#
-$CMP ADS8517
-D 16-Bit, 200-kSPS, Low-Power, Sampling ANALOG-TO-DIGITALCONVERTER with Internal Reference and Parallel/Serial Interface
-$ENDCMP
-#
-$CMP ADuM3151
-D 3.75 kV, 7-Channel, SPIsolatorDigitalIsolators for SPI
-$ENDCMP
-#
-$CMP AQY212GS
-D Load current greatly increased using next-generation MOSFET High Capacity 4-pin Type
-$ENDCMP
-#
-$CMP BUF634A
-D UF634A36-V, 210-MHz,250-mAOutput,High-SpeedBuffer
-K single opamp
-F http://www.ti.com/lit/ds/symlink/ne5534.pdf
-$ENDCMP
-#
-$CMP CRD
-D current-regulating diode (CRD)
-K diode
-F ~
-$ENDCMP
-#
-$CMP DAC8812C
-D DAC8812Dual, Serial-Input16-BitMultiplyingDigital-to-AnalogConverter
-$ENDCMP
-#
-$CMP DRQ127-101
-D Dual winding, high power density, shielded drum core power inductors
-$ENDCMP
-#
-$CMP DRQ127-221
-D Dual winding, high power density, shielded drum core power inductors
-$ENDCMP
-#
-$CMP DRQ74-330
-D Dual winding, high power density, shielded drum core power inductors
-$ENDCMP
-#
-$CMP GNDB
-D Power symbol creates a global label with name "GNDB" , ground
-K power-flag
-$ENDCMP
-#
-$CMP GNDF
-D Power symbol creates a global label with name "GNDF" , ground
-K power-flag
-$ENDCMP
-#
-$CMP GNDHV
-D Power symbol creates a global label with name "GNDHV" , ground
-K power-flag
-$ENDCMP
-#
-$CMP GNDO
-D Power symbol creates a global label with name "GNDO" , ground
-K power-flag
-$ENDCMP
-#
-$CMP GNDP
-D Power symbol creates a global label with name "GNDP" , ground
-K power-flag
-$ENDCMP
-#
-$CMP GNDS
-D Power symbol creates a global label with name "GNDS" , ground
-K power-flag
-$ENDCMP
-#
-$CMP GND_TRIG
-D Power symbol creates a global label with name "GND_TRIG" , ground
-K power-flag
-$ENDCMP
-#
-$CMP HE3600
-D HE3600 Miniature Single In-line Reed Relay
-$ENDCMP
-#
-$CMP HE3621A0500
-D HE3600 Miniature Single In-line Reed Relay
-$ENDCMP
-#
-$CMP HE3621A0510
-D HE3600 Miniature Single In-line Reed Relay
-$ENDCMP
-#
-$CMP LAN8742
-D Small  Footprint  RMII  10/100  Ethernet  Transceiver  with  HP  Auto-MDIX  and  flexPWR® Technology
-$ENDCMP
-#
-$CMP LC03-3.3
-D LC03-3.3 Series 3.3V 150A Diode Array
-$ENDCMP
-#
-$CMP LT1007
-D Low Noise, High SpeedPrecision Operational Amplifiers, PDIP-8/SO-8
-K single opamp
-F http://www.ti.com/lit/ds/symlink/ne5534.pdf
-$ENDCMP
-#
-$CMP LT1055
-D Precision, High Speed,JFET Input Operational Amplifiers
-K single opamp
-F http://www.ti.com/lit/ds/symlink/ne5534.pdf
-$ENDCMP
-#
-$CMP LT1057S8
-D Dual  JFET InputPrecision High Speed Op Amps
-$ENDCMP
-#
-$CMP LT8330_S6
-D Low IQ Boost/SEPIC/Inverting Converter  with 1A, 60V Switch
-$ENDCMP
-#
-$CMP LT8331
-D Low IQ Boost/SEPIC/Flyback/Inverting Converter with 0.5A, 140V Switch
-$ENDCMP
-#
-$CMP LT8362
-D Low IQ Boost/SEPIC/Inverting Converter with 2A, 60V Switch
-$ENDCMP
-#
-$CMP MAX5902
-D +72V, SOT23/TDFN, Simple Swapper Hot-Swap Controllers
-$ENDCMP
-#
-$CMP OPA132
-D OPAx132 High-Speed FET-Input Operational Amplifiers
-K single opamp
-F http://www.ti.com/lit/ds/symlink/ne5534.pdf
-$ENDCMP
-#
-$CMP TEL10-2415
-D TheTEL10 series is a range of isolated 10 Watt DC/DC converters which come in a ultra compact DIP-16 metal package.
-$ENDCMP
-#
-$CMP TEL10_Single
-D TheTEL10 series is a range of isolated 10 Watt DC/DC converters which come in a ultra compact DIP-16 metal package.
-$ENDCMP
-#
-$CMP TSR1
-D TSR1Series, 1A
-$ENDCMP
-#
-$CMP TSR1-2433
-D TSR1Series, 1A, 3.3 VDC
-$ENDCMP
-#
-$CMP TSR1-2450
-D TSR1Series, 1A, 5 VDC
+$CMP TRN3
+D The TRN 3SM Series comprises 3 Watt fully regulated, high performance DC/DC converters.
+F https://www.tracopower.com/sites/default/files/products/datasheets/trn3sm_datasheet.pdf
 $ENDCMP
 #
 #End Doc Library

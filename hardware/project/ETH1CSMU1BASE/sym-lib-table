@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name ETH1CSMU1)(type Legacy)(uri /home/grzegorz/git/ETH1CSMU1/hardware/lib/sch/ETH1CSMU1.lib)(options "")(descr ""))
-  (lib (name ETH1CSMU1BASE-rescue)(type Legacy)(uri ${KIPRJMOD}/ETH1CSMU1BASE-rescue.lib)(options "")(descr ""))
-)

@@ -736,18 +736,18 @@ Wire Wire Line
 	15050 2600 15100 2600
 Text HLabel 15750 8700 2    50   BiDi ~ 0
 NRST
-Text HLabel 15100 6500 2    50   Output ~ 0
+Text HLabel 15100 1900 2    50   Output ~ 0
 TRIG_EN
-Text HLabel 15100 6400 2    50   Output ~ 0
+Text HLabel 15100 1800 2    50   Output ~ 0
 TRIG_OUT
-Text HLabel 15100 6300 2    50   Input ~ 0
+Text HLabel 15100 1500 2    50   Input ~ 0
 TRIG_IN
 Wire Wire Line
-	15100 6300 15050 6300
+	15100 1500 15050 1500
 Wire Wire Line
-	15100 6400 15050 6400
+	15100 1800 15050 1800
 Wire Wire Line
-	15050 6500 15100 6500
+	15050 1900 15100 1900
 NoConn ~ 3650 3500
 NoConn ~ 15050 2400
 NoConn ~ 15050 6700
@@ -1467,19 +1467,10 @@ Wire Wire Line
 Connection ~ 1850 9400
 NoConn ~ 15050 7400
 NoConn ~ 15050 7200
-NoConn ~ 3650 2500
-NoConn ~ 3650 4100
-NoConn ~ 3650 4200
 NoConn ~ 3650 4300
 NoConn ~ 3650 4400
-NoConn ~ 3650 5500
-NoConn ~ 3650 5600
-NoConn ~ 3650 5700
 NoConn ~ 15050 2200
 NoConn ~ 15050 2100
-NoConn ~ 15050 1900
-NoConn ~ 15050 1800
-NoConn ~ 15050 1500
 NoConn ~ 15050 4900
 $Comp
 L ETH1CSMU1:STM32H743ZI U501
@@ -1726,15 +1717,15 @@ Wire Wire Line
 Wire Wire Line
 	3600 900  2750 900 
 Connection ~ 2750 900 
-Text HLabel 15100 3500 2    50   Output ~ 0
+Text HLabel 3600 4200 0    50   Output ~ 0
 CXN_REL5
-Text HLabel 15100 3400 2    50   Output ~ 0
+Text HLabel 3600 4100 0    50   Output ~ 0
 CXN_REL4
-Text HLabel 15100 3300 2    50   Output ~ 0
+Text HLabel 3600 5700 0    50   Output ~ 0
 CXN_REL3
-Text HLabel 15100 3200 2    50   Output ~ 0
+Text HLabel 3600 5600 0    50   Output ~ 0
 CXN_REL2
-Text HLabel 15100 3100 2    50   Output ~ 0
+Text HLabel 3600 5500 0    50   Output ~ 0
 CXN_REL1
 Wire Wire Line
 	3650 2400 3600 2400
@@ -1817,18 +1808,36 @@ SPI3_NSS
 Wire Wire Line
 	3600 4700 3650 4700
 Wire Wire Line
-	15050 3500 15100 3500
+	3650 4200 3600 4200
 Wire Wire Line
-	15050 3400 15100 3400
+	3650 4100 3600 4100
 Wire Wire Line
-	15050 3300 15100 3300
+	3650 5700 3600 5700
 Wire Wire Line
-	15050 3200 15100 3200
+	3650 5600 3600 5600
 Wire Wire Line
-	15050 3100 15100 3100
+	3650 5500 3600 5500
 NoConn ~ 15050 7300
-NoConn ~ 3650 5100
-NoConn ~ 3650 5200
+NoConn ~ 15050 6300
+NoConn ~ 15050 6400
+NoConn ~ 15050 6500
+NoConn ~ 15050 3100
+NoConn ~ 15050 3200
+NoConn ~ 15050 3300
+NoConn ~ 15050 3400
+NoConn ~ 15050 3500
+Text HLabel 3600 2500 0    50   Input ~ 0
+MCU_~ICLAMP
+Wire Wire Line
+	3650 2500 3600 2500
+Text HLabel 3600 5100 0    50   Input ~ 0
+ADC_HS_RVS2
+Text HLabel 3600 5200 0    50   Input ~ 0
+ADC_HS_RVS1
+Wire Wire Line
+	3650 5200 3600 5200
+Wire Wire Line
+	3650 5100 3600 5100
 Wire Bus Line
 	1550 4100 1550 5500
 Wire Bus Line

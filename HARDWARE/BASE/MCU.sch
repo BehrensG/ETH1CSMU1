@@ -1465,7 +1465,6 @@ Connection ~ 2050 9900
 Wire Wire Line
 	1850 9400 2050 9400
 Connection ~ 1850 9400
-NoConn ~ 15050 7400
 NoConn ~ 15050 7200
 NoConn ~ 3650 4300
 NoConn ~ 3650 4400
@@ -1825,10 +1824,10 @@ NoConn ~ 15050 3200
 NoConn ~ 15050 3300
 NoConn ~ 15050 3400
 NoConn ~ 15050 3500
-Text HLabel 15100 6300 2    50   Input ~ 0
+Text HLabel 15100 7400 2    50   Input ~ 0
 MCU_~ICLAMP
 Wire Wire Line
-	15050 6300 15100 6300
+	15050 7400 15100 7400
 Text HLabel 3600 5100 0    50   Input ~ 0
 ADC_HS_RVS2
 Text HLabel 3600 5200 0    50   Input ~ 0
@@ -1838,6 +1837,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 5100 3600 5100
 NoConn ~ 3650 2500
+NoConn ~ 15050 6300
 Wire Bus Line
 	1550 4100 1550 5500
 Wire Bus Line

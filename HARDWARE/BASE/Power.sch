@@ -455,15 +455,4 @@ F 3 "" H 8850 3550 50  0001 C CNN
 	1    8850 3550
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Mechanical:Heatsink HS701
-U 1 1 60910113
-P 7800 4600
-F 0 "HS701" H 7942 4721 50  0000 L CNN
-F 1 "Heatsink" H 7942 4630 50  0000 L CNN
-F 2 "" H 7812 4600 50  0001 C CNN
-F 3 "~" H 7812 4600 50  0001 C CNN
-	1    7800 4600
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

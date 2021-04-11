@@ -2846,17 +2846,6 @@ Wire Wire Line
 Text HLabel 6050 2600 3    50   Input ~ 0
 FDACN_SELECT
 $Comp
-L Connector:TestPoint TP901
-U 1 1 627031F9
-P 3350 3650
-F 0 "TP901" V 3304 3838 50  0000 L CNN
-F 1 "TPDAC" V 3395 3838 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 3550 3650 50  0001 C CNN
-F 3 "~" H 3550 3650 50  0001 C CNN
-	1    3350 3650
-	0    1    1    0   
-$EndComp
-$Comp
 L ETH1CSMU1:AD5686RARUZ U908
 U 1 1 62562820
 P 2800 3500
@@ -2886,4 +2875,5 @@ F 3 "http://www.ixysic.com/home/pdfs.nsf/www/CPC1017N.pdf/$file/CPC1017N.pdf" H 
 $EndComp
 Text HLabel 8400 4000 3    50   Input ~ 0
 ADC_SELECT
+NoConn ~ 3350 3650
 $EndSCHEMATC

@@ -2512,7 +2512,7 @@ Text Label 16850 8600 2    50   ~ 0
 DDS_MDAC_SCLK
 Text Label 16850 8500 2    50   ~ 0
 DDS_MDAC_~SYNC
-Text Label 16850 8400 2    50   ~ 0
+Text Label 4050 10000 0    50   ~ 0
 ANALOG_SWITCH
 Text Label 16850 7600 2    50   ~ 0
 DDS_DAC_~LDAC
@@ -2696,7 +2696,6 @@ Wire Wire Line
 	10250 7200 10250 7150
 NoConn ~ 16150 8200
 NoConn ~ 16150 7900
-NoConn ~ 4850 10000
 NoConn ~ 4850 9800
 NoConn ~ 16150 8700
 $Comp
@@ -2740,7 +2739,7 @@ NoConn ~ 16150 8300
 NoConn ~ 4850 9400
 NoConn ~ 4850 9900
 Wire Wire Line
-	16850 8400 16150 8400
+	4050 10000 4850 10000
 NoConn ~ 4850 9100
 NoConn ~ 4850 9200
 NoConn ~ 4850 10600
@@ -2801,14 +2800,14 @@ Wire Wire Line
 	16600 9100 16600 9400
 Wire Wire Line
 	16150 9000 17950 9000
-Text Label 4400 8800 0    50   ~ 0
+Text Label 4050 8800 0    50   ~ 0
 TCK_SWCLK
 Wire Wire Line
-	4850 8800 4400 8800
-Text Label 4400 8700 0    50   ~ 0
+	4850 8800 4050 8800
+Text Label 4050 8700 0    50   ~ 0
 TMS_SWDIO
 Wire Wire Line
-	4850 8700 4400 8700
+	4850 8700 4050 8700
 NoConn ~ 16150 9300
 NoConn ~ 16150 9400
 Wire Wire Line
@@ -2999,4 +2998,5 @@ F 3 "" H 17300 2700 50  0001 C CNN
 	1    17300 2700
 	1    0    0    -1  
 $EndComp
+NoConn ~ 16150 8400
 $EndSCHEMATC

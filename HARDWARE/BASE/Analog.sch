@@ -958,8 +958,6 @@ Wire Wire Line
 	8700 2150 9000 2150
 Text Label 10900 8200 2    50   ~ 0
 +GUARD
-Wire Wire Line
-	10550 8200 10900 8200
 Connection ~ 10200 8200
 Wire Wire Line
 	10250 8200 10200 8200
@@ -3677,14 +3675,6 @@ Wire Wire Line
 Text HLabel 15050 2650 2    50   BiDi ~ 0
 +GUA
 Wire Wire Line
-	14150 2650 15050 2650
-Wire Wire Line
-	14150 2250 15050 2250
-Wire Wire Line
-	14150 4300 15050 4300
-Wire Wire Line
-	14150 4700 15050 4700
-Wire Wire Line
 	14150 4100 14500 4100
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J1001
@@ -3832,4 +3822,14 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 11900 650
 	1    11900 6500
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	10550 8200 10900 8200
+Wire Wire Line
+	14150 4700 15050 4700
+Wire Wire Line
+	14150 4300 15050 4300
+Wire Wire Line
+	14150 2650 15050 2650
+Wire Wire Line
+	14150 2250 15050 2250
 $EndSCHEMATC

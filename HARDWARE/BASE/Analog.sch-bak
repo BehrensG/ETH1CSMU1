@@ -4,7 +4,7 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 10 12
-Title ""
+Title "Analog control"
 Date ""
 Rev ""
 Comp ""
@@ -3820,20 +3820,6 @@ F 1 "BAV199" H 11900 6714 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 11900 6000 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 11900 6500 50  0001 C CNN
 	1    11900 6500
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9200 4450 9200 4400
-Connection ~ 9200 4400
-$Comp
-L Connector:TestPoint TP1006
-U 1 1 61687134
-P 9200 4450
-F 0 "TP1006" H 9142 4476 50  0000 R CNN
-F 1 "TestPoint" H 9142 4567 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 9400 4450 50  0001 C CNN
-F 3 "~" H 9400 4450 50  0001 C CNN
-	1    9200 4450
 	-1   0    0    1   
 $EndComp
 Wire Wire Line

@@ -58,6 +58,38 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define LED_RED_Pin GPIO_PIN_13
+#define LED_RED_GPIO_Port GPIOC
+#define LED_GREEN_Pin GPIO_PIN_14
+#define LED_GREEN_GPIO_Port GPIOC
+#define LED_BLUE_Pin GPIO_PIN_15
+#define LED_BLUE_GPIO_Port GPIOC
+#define MCU_DEFAULT_Pin GPIO_PIN_3
+#define MCU_DEFAULT_GPIO_Port GPIOA
+#define MCU_nICLAMP_Pin GPIO_PIN_11
+#define MCU_nICLAMP_GPIO_Port GPIOB
+#define EEPROM_WP_Pin GPIO_PIN_11
+#define EEPROM_WP_GPIO_Port GPIOD
+#define TRIG_IN_Pin GPIO_PIN_3
+#define TRIG_IN_GPIO_Port GPIOG
+#define TRIG_OUT_Pin GPIO_PIN_6
+#define TRIG_OUT_GPIO_Port GPIOG
+#define TRIG_EN_Pin GPIO_PIN_7
+#define TRIG_EN_GPIO_Port GPIOG
+#define CXN_REL1_Pin GPIO_PIN_6
+#define CXN_REL1_GPIO_Port GPIOC
+#define CXN_REL2_Pin GPIO_PIN_7
+#define CXN_REL2_GPIO_Port GPIOC
+#define CXN_REL3_Pin GPIO_PIN_8
+#define CXN_REL3_GPIO_Port GPIOC
+#define CXN_REL4_Pin GPIO_PIN_9
+#define CXN_REL4_GPIO_Port GPIOA
+#define CXN_REL5_Pin GPIO_PIN_10
+#define CXN_REL5_GPIO_Port GPIOA
+#define ADC_HS_RVS2_Pin GPIO_PIN_11
+#define ADC_HS_RVS2_GPIO_Port GPIOA
+#define ADC_HS_RVS1_Pin GPIO_PIN_12
+#define ADC_HS_RVS1_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
